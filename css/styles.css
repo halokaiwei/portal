@@ -254,7 +254,7 @@ span {
 }
 
 .text-animation span::before {
-    content: "Freshgraduated Software Engineering Student";
+    content: "Full Stack Developer";
     color: var(--main-color);
     animation: words 10s infinite;
 }
@@ -494,6 +494,12 @@ span {
     line-height: 2;
 }
 
+.service-info h5 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2;
+}
+
 .service-info p {
     font-size: 1.6rem;
     font-weight: 600;
@@ -501,6 +507,150 @@ span {
     line-height: 1.7;
     margin: auto;
 }
+
+.unity-tzp-box {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('../images/The_Zero_Protocol_Cover.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.unity-tzp-box:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../images/The_Zero_Protocol_Cover.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.unity-tzp-box .service-info h4, 
+.unity-tzp-box .service-info p {
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.unity-tzp-box .service-info a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+}
+
+.unity-tzp-box .service-info a:hover {
+    background: #fff;
+    color: #000; 
+}
+
+.github-fsd-box {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('../images/bg-fsd.png');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.github-fsd-box:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../images/bg-fsd.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.github-fsd-box .service-info h4, 
+.github-fsd-box .service-info p {
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+.github-crawler-box {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2021/05/web_crawler_header.jpg?&fit=crop&w=1200&h=675');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.github-crawler-box:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2021/05/web_crawler_header.jpg?&fit=crop&w=1200&h=675');
+    background-size: cover;
+    background-position: center;
+}
+
+.github-crawler-box .service-info h4, 
+.github-crawler-box .service-info p {
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.github-crawler-box .service-info a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+}
+
+.github-crawler-box .service-info a:hover {
+    background: #fff;
+    color: #000; 
+}
+
+.other-box {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('../images/other.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.other-box:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../images/other.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.other-box .service-info h4, 
+.other-box .service-info p {
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.other-box .service-info a {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+}
+
+.other-box .service-info a:hover {
+    background: #fff;
+    color: #000; 
+}
+
 
 /* Testimonials */
 
